@@ -1,6 +1,6 @@
 {
   "name": "node-rdkafka-precompiled",
-  "version": "2.10.1-alpha.2",
+  "version": "v2.10.1-alpha.2",
   "description": "Node.js bindings for librdkafka - precompiled",
   "librdkafka": "1.6.1",
   "main": "lib/index.js",
