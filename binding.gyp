@@ -88,10 +88,10 @@
                       'OS=="linux"',
                       {
                         "libraries": [
-                          "../build/deps/librdkafka.so",
-                          "../build/deps/librdkafka++.so",
-                          "-Wl,-rpath='$$ORIGIN/../deps'",
-                        ],
+                          "../build/deps/librdkafka.so.1",
+                          "../build/deps/librdkafka++.so.1",
+                          "-Wl,-rpath='$$ORIGIN/deps'",
+                        ]
                       }
                     ],
                     [
